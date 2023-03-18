@@ -1,10 +1,12 @@
 import React from 'react';
-
+import Navbar from './components/Navbar';
 const App = ()=>{
  return(
     <div>
-        E-commerce
+        
+        <Navbar></Navbar>
     </div>
+
  )
 }
 export default App
