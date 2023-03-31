@@ -1,15 +1,28 @@
-.nav{
-    display:flex;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
+.nav1{
     background-color: grey;
     height: 50px;
-    position: fixed;
-    align-items: center;
-
+    padding-top: 0px;
 }
-.item{
-    padding: 5px;
-    display: inline;
+.item1{
+    padding: 0px;
+    
+}
+.box{
+    margin-left: auto;
+    text-decoration: underline;
+}
+.but1{
+    color: #00203f;
+    border:2px solid #00203f;
+    font-weight:500;
+}
+.but1:hover{
+    background-color: #00203f;
+    border:2px solid #00203f;
+    color: white;
+}
+.but1:active{
+    --bs-btn-active-bg:#00203f;
+    --bs-btn-active-border-color: #00203f;
+
 }
