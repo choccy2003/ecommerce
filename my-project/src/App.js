@@ -17,19 +17,19 @@ const [product_array,incfn]=useState([{
     price:4000,
     quantity:0,
 },{
-    name:"Jeans",
-    price:4000,
+    name:"Jacket",
+    price:10000,
     quantity:0,
 },{
-    name:"Jeans",
+    name:"Shoes",
     price:4000,
     quantity:0,
 }
 ])
 const inc=(index)=>{
-    const newproduct_array=[...product_array];
+    let newproduct_array=[...product_array]
     newproduct_array[index].quantity++
-    incfn(newproduct_array)
+    incfn(newproduct_array);
     
 }
  return(

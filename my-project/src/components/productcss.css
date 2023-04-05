@@ -2,8 +2,17 @@
     padding-top:20px;
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     
+
 }
 .product{
     padding: 10px;
+    
+}
+.btn1{
+    height: 30px;
+    width: 100px;
 }
