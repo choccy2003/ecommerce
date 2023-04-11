@@ -1,7 +1,8 @@
 import React from 'react'
 import "../styles/navcss.css"
 
-const Navbar = () => {
+const Navbar = (props) => {
+  
   return (
     
   
@@ -30,12 +31,13 @@ const Navbar = () => {
                         <li><a className="dropdown-item" href="#">Something else here</a></li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul><div >Cart value:<span>{props.total}</span> </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <form className="d-flex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                     <button className="but1 btn btn-outline-success" type="submit">Search</button>
                   </form>
                 </div>
+                
               </div>
             </nav>
           </div>
